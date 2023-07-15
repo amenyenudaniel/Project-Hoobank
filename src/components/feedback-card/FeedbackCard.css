@@ -1,0 +1,43 @@
+.feedbackCard {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 20px;
+  max-width: 380px;
+  padding: 2rem;
+}
+
+.feedbackCard p {
+  font-style: normal;
+  font-size: 18px;
+  color: white;
+  margin-top: 1rem;
+  line-height: 1.7;
+}
+
+.profile__container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.profile__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile__content h4 {
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 0;
+  font-style: normal;
+}
+.profile__content p {
+  font-style: normal;
+  font-size: 16px;
+  color: var(--dimWhite);
+  margin-top: 0;
+}

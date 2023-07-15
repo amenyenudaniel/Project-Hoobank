@@ -1,0 +1,19 @@
+.btn {
+  padding: 0.6rem 0.6rem;
+  font-size: 17px;
+  color: var(--primary);
+  outline: none;
+  border: none;
+  margin-top: 3rem;
+  transition: 0.2s ease-in;
+  border: 2px solid var(--secondary);
+  border-radius: 10px;
+  background-color: var(--secondary);
+}
+
+.btn:hover {
+  color: var(--secondary);
+  background-color: var(--primary);
+  cursor: pointer;
+  border: 2px solid var(--secondary);
+}

@@ -1,0 +1,39 @@
+.get__started-container {
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  padding: 2px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.round__btn {
+  display: flex;
+  background-color: var(--primary);
+  width: 100%;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.get__started__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.get__started__content p {
+  font-size: 1.5rem;
+}
+
+.arrow {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.p__start {
+  font-size: 1.5rem;
+}

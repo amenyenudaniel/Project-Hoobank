@@ -1,0 +1,54 @@
+.stats__section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 6rem;
+  gap: 2rem;
+}
+.stats__content {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 0.5rem;
+}
+
+.stats__content h4 {
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+.stats__content p {
+  font-style: normal;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .stats__section {
+    padding: 0 3rem;
+  }
+
+  .stats__content h4 {
+    font-size: 25px;
+  }
+
+  .stats__content p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .stats__section {
+    padding: 0 2rem;
+  }
+
+  .stats__content h4 {
+    font-size: 23px;
+  }
+
+  .stats__content p {
+    font-size: 13px;
+  }
+}

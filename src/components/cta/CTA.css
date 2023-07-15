@@ -1,0 +1,82 @@
+.CTA__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 6rem;
+  padding: 3rem;
+  border-radius: 20px;
+}
+
+.CTA__content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.CTA__content h2 {
+  font-size: 3.5rem;
+  color: white;
+}
+
+.CTA__content p {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: var(--dimWhite);
+  line-height: 1.7;
+  max-width: 700px;
+}
+
+.CTA__button button {
+  padding: 0.6rem 0.6rem;
+  font-size: 17px;
+  color: var(--primary);
+  outline: none;
+  border: none;
+  transition: 0.2s ease-in;
+  border: 2px solid var(--secondary);
+  border-radius: 10px;
+  background-color: var(--secondary);
+}
+
+.CTA__button button:hover {
+  color: var(--secondary);
+  background-color: transparent;
+  cursor: pointer;
+}
+@media screen and (max-width: 1500px) {
+  .CTA__content h2 {
+    font-size: 2.5rem;
+  }
+
+  .CTA__content p {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    max-width: 470px;
+  }
+  
+}
+@media screen and (max-width: 900px) {
+  .CTA__section {
+    margin: 3rem 3rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .CTA__section {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .CTA__content h2{
+    font-size: 2rem;
+  }
+
+  .CTA__content p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .CTA__section {
+    margin: 3rem 2rem;
+  }
+}

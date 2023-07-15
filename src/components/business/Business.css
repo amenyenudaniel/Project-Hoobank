@@ -1,0 +1,126 @@
+.features {
+  padding: 1rem 6rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  align-items: center;
+  margin-top: 8rem;
+  overflow: hidden;
+}
+.features__info h2 {
+  font-size: 4.5rem;
+  color: white;
+}
+
+.features__info p {
+  color: var(--dimWhite);
+  max-width: 700px;
+  line-height: 1.7;
+  margin-top: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.feature__container {
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  padding: 1rem;
+  gap: 2rem;
+  align-items: center;
+}
+
+.feature {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dimBlue);
+}
+.feature__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.feature__content h4 {
+  color: white;
+  font-family: 20px;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.feature__content p {
+  color: var(--dimWhite);
+  font-size: 18px;
+  font-weight: normal;
+}
+@media screen and (max-width: 1500px) {
+  .features__info h2 {
+    font-size: 3rem;
+  }
+  .feature__content p {
+    font-size: 16px;
+  }
+  .features__info p {
+    max-width: 500px;
+    line-height: 1.7;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .feature {
+    width: 50px;
+    height: 50px;
+  }
+
+  .feature__content h4 {
+    
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .features {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .features {
+    padding: 1rem 3rem;
+    align-items: flex-start;
+  }
+
+  .features__info h2 {
+    font-size: 2.5rem;
+  }
+
+  .features__info p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .features {
+    padding: 1rem 2rem;
+  }
+
+  .features__info h2 {
+    font-size: 2.5rem;
+  }
+
+  .features__info p {
+    font-size: 14px;
+  }
+  .feature {
+    width: 60px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dimBlue);
+  }
+}
